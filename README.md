@@ -52,14 +52,14 @@ If you experience flickering of the screen, that is because the output is flushe
 #### Console functions to use with std::cout
 The following functions might need a console object to be instantiated and then you can call these functions. Needless to say, these functions are going to be deprecated and you should not be using them.
 
-##### void gotoXY(int x,int y);
-##### void gotoXY(COORD c);
+##### void gotoXY(int x,int y); XX
+##### void gotoXY(COORD c); XX
 Go to a specific location on the screen and writes to the std output from there. Origin is top left.
 
-##### void colour(WORD attrib);
+##### void colour(WORD attrib); XX
 Sets a specific colour to be used in the next call to std::cout.
 
-##### void cls( HANDLE hConsole = 0);
+##### void cls( HANDLE hConsole = 0); XX
 Clears the screen with the last colour attribute set.
 
 #### Console object
